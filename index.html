@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <title>Bruno Lima</title>
+    <link rel="shortcut icon" href="public/imgs/favicon-32x32.png" type="image/x-icon">
+    <title>Equipe Kolossum Media</title>
 </head>
 <body>
     <main class="content">
@@ -15,26 +16,38 @@
                     <a href="index.html"><img src="public/DATA/img/Logo Kolossum 4.png" alt="logo"></a>
                 </div>
             </div>
+            <!-- <div class="title1">
+                <p>Olá, Somos da Equipe Kolossum!</p>
+            </div> -->
             <section class="blocks">
                 <!-- entre em contato via wtspp -->
-                <a href="#"><div class="block">
+                <a target="_blank" href="https://bit.ly/Eliminar_Duvidas"><div class="block">
                     <img src="public/imgs/click01.png" alt="">
                 </div></a>
                 <!-- feche seu orçamento agora -->
-                <a href=""><div class="block">
+                <a target="_blank" href="https://bit.ly/Fechar_Or%C3%A7amento"><div class="block">
                     <img src="public/imgs/click02.png" alt="">
                 </div></a>
                 <!-- portifolio pessoal -->
-                <a href=""><div class="block">
+                <a target="_blank" href="https://bit.ly/Portf%C3%B3lioKolossumMedia"><div class="block">
                     <img src="public/imgs/click03.png" alt="">
                 </div></a>
             </section>
+            <div class="title">
+                Redes Sociais
+            </div>
             <nav class="links">
-                <div class="link"><i class='bx bxl-instagram'></i></div>
-                <!-- <div class="link"><i class='bx bxl-youtube' ></i></div>
-                <div class="link"><i class='bx bxl-linkedin-square' ></i></div> -->
+                <a style="text-decoration: none;" href="https://www.instagram.com/eubruno.editor/" target="_blank" class="link"><i class='bx bxl-instagram'></i></a>
             </nav>
         </section>
     </main>
+    <footer class="endPage">
+        <p>Todos os Direitos Reservados <br> - by: <a href="#">Rafael William</a> - <span id="ano">2023</span></p>
+    </footer>
+    <script>
+        const ano = document.querySelector("#ano");
+        let AnoNovo = new Date(Y);
+        ano.innerText = AnoNovo;
+    </script>
 </body>
 </html>
